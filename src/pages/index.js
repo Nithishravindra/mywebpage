@@ -1,5 +1,11 @@
-import React from "react"
+import React from 'react'
+import Layout from '../layout/Layout'
+import { graphql } from 'gatsby'
 
-export default function Home() {
-  return <div>Hello world!</div>
+export default () => {
+  return (
+    <Layout>
+      <h1>Hello world!</h1>
+    </Layout>
+  )
 }

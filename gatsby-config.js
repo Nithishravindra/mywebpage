@@ -5,6 +5,12 @@
  */
 
 module.exports = {
-  /* Your site config here */
-  plugins: [],
+  siteMetadata: {
+    title: 'My portfolio',
+    description: 'This is WebDev Portfolio Site',
+    author: 'Nithish',
+    twitterUsername: '@nithishravindra',
+    siteUrl: 'http://nithishravindra.com',
+  },
+  plugins: [`gatsby-plugin-sharp`],
 }
