@@ -451,3 +451,48 @@ Sidebar Animation
     opacity: 1;
   }
 }
+
+@media screen and (min-width: 992px) {
+  .about p {
+    margin: 3rem;
+    padding: 5rem;
+    font-size: 1.4rem;
+    line-height: 1.7;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .about p {
+    margin: 1.5rem;
+    padding: 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .about p {
+    margin: 3rem;
+    padding: 5rem;
+    font-size: 1.4rem;
+    line-height: 1.7;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .about p {
+    margin: 3rem;
+    padding: 5rem;
+    font-size: 3rem;
+    line-height: 2;
+  }
+}
+
+@media screen and (min-width: 411px) {
+  .about p {
+    margin: 1.2rem;
+    padding: 1.5rem;
+    font-size: 2rem;
+    line-height: 1.7;
+  }
+}
