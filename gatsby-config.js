@@ -12,5 +12,17 @@ module.exports = {
     twitterUsername: '@nithishravindra',
     siteUrl: 'http://nithishravindra.com',
   },
-  plugins: [`gatsby-plugin-sharp`],
+  plugins: [
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Nithish`,
+        short_name: `***`,
+        start_url: `/`,
+        display: `standalone`,
+        icon: `src/assets/logo.png`,
+      },
+    },
+  ],
 }

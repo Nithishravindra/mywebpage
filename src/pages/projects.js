@@ -17,6 +17,7 @@ const Projects = () => (
             <span>{item.techStack}</span>
           </div>
           <div className="project-links">
+            View source code on -{' '}
             <a href={item.githubLink}>
               <FaGithubSquare className="project-icon" />
             </a>
