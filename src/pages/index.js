@@ -9,8 +9,8 @@ export default () => {
           <div>
             <h1>Hey, I'm Nithish.</h1>
             <h4>
-              I’m currently pursuing B.E in Computer Science. I like building
-              web applications.
+              Welcome to my site, I'm web developer and guitarist from
+              bengaluru.
             </h4>
           </div>
         </div>

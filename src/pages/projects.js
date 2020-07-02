@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaGithubSquare, FaShareSquare } from 'react-icons/fa'
-import project from '../data/projects'
+import project from '../data/projectList'
 import Layout from '../layout/Layout'
 
 const Projects = () => (
