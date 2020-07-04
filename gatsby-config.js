@@ -14,6 +14,16 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `assets`,
+        path: `${__dirname}/src/images/`,
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -21,7 +31,7 @@ module.exports = {
         short_name: `***`,
         start_url: `/`,
         display: `standalone`,
-        icon: `src/assets/logo.png`,
+        icon: `src/images/logo.png`,
       },
     },
   ],

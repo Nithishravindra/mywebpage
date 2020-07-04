@@ -17,7 +17,6 @@ export default class MyForm extends React.Component {
       <Layout>
         <h2 className="social-heading"> Catch me up online </h2>
         <SocialLinks className="social-link-position" />
-
         <div className="form-align">
           <form
             onSubmit={this.submitForm}

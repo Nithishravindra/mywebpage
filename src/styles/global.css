@@ -57,7 +57,7 @@ Global Styles
 body {
   font-family: 'Pangolin', cursive;
   /* background: grey; */
-  background-image: url('../assets/bg.png');
+  background-image: url('../images/bg.png');
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;

@@ -1,4 +1,4 @@
-export default [
+const data = [
   {
     id: 1,
     title: 'InfoCorona',
@@ -61,3 +61,5 @@ export default [
     techStack: ['NodeJS', 'WebScrapping'],
   },
 ]
+
+export default data
