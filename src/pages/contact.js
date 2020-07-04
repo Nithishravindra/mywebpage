@@ -15,8 +15,8 @@ export default class MyForm extends React.Component {
     const { status } = this.state
     return (
       <Layout>
-        <h2 className="social-heading"> Catch me up online </h2>
-        <SocialLinks className="social-link-position" />
+        <h2 className="social-heading">Contact Me</h2>
+
         <div className="form-align">
           <form
             onSubmit={this.submitForm}
@@ -27,19 +27,19 @@ export default class MyForm extends React.Component {
               type="text"
               name="name"
               placeholder="name"
-              class="form-control"
+              className="form-control"
             ></input>
             <input
               type="email"
               placeholder="email"
               name="email"
-              class="form-control"
+              className="form-control"
             />
             <textarea
               name="message"
               rows="5"
               placeholder="message"
-              class="form-control"
+              className="form-control"
             ></textarea>
             {status === 'SUCCESS' ? (
               <p>Thanks!</p>
@@ -49,6 +49,7 @@ export default class MyForm extends React.Component {
             {status === 'ERROR' && <p>Oops! Retry.</p>}
           </form>
         </div>
+        <SocialLinks className="social-link-position" />
       </Layout>
     )
   }

@@ -11,10 +11,9 @@ const Projects = () => (
           <h3>{item.title}</h3>
           <p className="project-desc">{item.description}</p>
           <div className="project-stack">
-            {item.techStack.map(i => (
-              <span>{i}</span>
+            {item.techStack.map((i, index) => (
+              <span key={index}>{i}</span>
             ))}
-            <span>{item.techStack}</span>
           </div>
           <div className="project-links">
             View source code on -{' '}

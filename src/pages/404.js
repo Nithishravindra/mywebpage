@@ -3,7 +3,7 @@ import React from 'react'
 export default () => {
   return (
     <div>
-      <header className="heading">
+      <header>
         <h1>PAGE NOT FOUND.</h1>
       </header>
     </div>
