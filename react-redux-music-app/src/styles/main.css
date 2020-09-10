@@ -1,0 +1,35 @@
+.Artist-content {
+  flex: 1;
+  padding: 20px;
+  margin-top: 84px;
+  min-height: 150vh;
+}
+
+.artist-listing__blocks {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+a {
+  color: gray;
+  text-decoration: none;
+}
+
+.title {
+  font-size: 2rem;
+  text-align: center;
+  color: black;
+}
+
+.Details-content {
+  flex: 1;
+  padding: 20px;
+  margin-top: 84px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 35rem;
+}
